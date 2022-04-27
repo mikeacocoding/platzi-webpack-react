@@ -52,7 +52,7 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
   ],
-  optiminization: {
+  optimization: {
     minimize: true,
     minimizer: [new CssMinimizerPlugin(), new TerserPlugin()],
   },
